@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    letter-spacing: 0.2rem;
+    height: 4rem;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.navigation__ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation__ul > li{
+    padding: 0 2rem;
+}
+
+.imagebody{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.imagebody__text{
+    position: absolute;
+    /* z-index: 55; */
+    bottom: 0;
+    left: 0;
+    padding: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.3rem;
+    color: #6d6a6a;
+}
+
+.catering{
+    display: flex;
+    padding: 5rem;
+}
+
+.catering__image{
+    width: 70%;
+    margin-left: 4rem;
+}
+
+.catering__details{
+    padding: 2rem 4rem;
+}
+
+
+.catering__heading{
+    font-size: 2.5rem;
+    letter-spacing: 0.4rem;
+}
+
+.catering__std{
+    font-size: 1.2rem;
+    letter-spacing: 0.4rem;
+    margin: 2rem 2rem;
+}
+
+.catering__descreption{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.catering__description__spanish{
+    color: #6d6a6a;
+}
+
+.menu__body{
+    display: flex;
+    padding: 6rem 9rem;
+}
+
+.menu > h3{
+    margin: 0 6rem;
+    padding: 2rem;
+    letter-spacing: 0.3rem;
+    font-size: 2rem;
+}
+
+
+.menu_heading{
+    padding: 1.8rem;
+    letter-spacing: 0.2rem;
+    font-size: 1rem;
+}
+
+.menu__description{
+    padding: 0.5rem 1.8rem;
+}
+
+.menu__image{
+    padding-left: 3.5rem;
+}
+
+.contact__page{
+    padding: 7rem;
+    display: block;
+}
+
+.contact__page > p{
+    padding: 2rem 0;
+}
+
+.contact__page > h4{
+    font-size: 1.2rem;
+    color: #6091BC;
+}
+
+.contact__page__contact__heading{
+    font-size: 2.2rem;
+    font-weight: 800;
+    padding: 2.5rem 0;
+}
+
+form input{
+    display: block;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    width: 100%;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+}
+
+button{
+    border: none;
+    padding: 0.8rem 1.5rem;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: #7773736b;
+}
+
+.page__footer{
+    padding: 3rem;
+    background-color: rgba(197, 187, 187, 0.692);
+}
+
+.page__footer > p{
+    margin-left: 50%;
+}
